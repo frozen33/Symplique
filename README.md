@@ -18,7 +18,7 @@ except:
 <img width="539" alt="image" src="https://github.com/user-attachments/assets/28be130e-9f66-4595-b94c-dbe1f9459c80" />
 
 # Problems might be faced
-- To maintain data integrity, we can\n
+- To maintain data integrity, we can
   1. Write to Blob
   2. Confirm Blob Integrity
   3. Then delete from Cosmos DB
