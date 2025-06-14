@@ -1,12 +1,12 @@
 # Symplique Solutions Azure Engineer Assessment
 
-## Strategy:
+# Strategy:
 - Migrate billing records older than 3 months to Azure Blob storage with Cool Tier (as response is expected in seconds. Use Hot tier if milli second latency is needed.
 The API contract remains the same.
 
 - Internal fallback logic similar to "try except block" can be implemented which will first search records in Cosmos DB and if the record is not found it looks into the Blob storage.
 
-# Fallback Logic
+# Fallback Logic:
 <p><pre>
 try:
   #Azure Cosmos DB access
@@ -17,7 +17,7 @@ except:
 # Architecture Diagarm:
 <img width="539" alt="image" src="https://github.com/user-attachments/assets/28be130e-9f66-4595-b94c-dbe1f9459c80" />
 
-# Problems might be faced
+# Problems might be faced:
 - To maintain data integrity, we can
   1. Write to Blob
   2. Confirm Blob Integrity
