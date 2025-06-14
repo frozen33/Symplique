@@ -18,10 +18,10 @@ except:
 <img width="539" alt="image" src="https://github.com/user-attachments/assets/28be130e-9f66-4595-b94c-dbe1f9459c80" />
 
 # Problems might be faced
-- To maintain data integrity, we can
--- Write to Blob
--- COnfirm Blob Integrity
--- Then delete from Cosmos DB
+- To maintain data integrity, we can\n
+  1. Write to Blob
+  2. Confirm Blob Integrity
+  3. Then delete from Cosmos DB
 - Security. No public access, signed URLs and strict access control      
 # ChatGPT Prompts:
 - Me: Can you give tell me the risks involving data loss while migrating from Cosmos DB to Blob and ways to mitigate them?
