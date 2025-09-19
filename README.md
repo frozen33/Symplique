@@ -1,4 +1,4 @@
-# Symplique Solutions Azure Engineer Assessment
+# Azure Engineer
 
 # Strategy:
 - Migrate billing records older than 3 months to Azure Blob storage with Cool Tier (as response is expected in seconds. Use Hot tier if milli second latency is needed.
